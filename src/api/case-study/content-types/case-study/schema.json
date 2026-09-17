@@ -21,11 +21,31 @@
     "description": { "type": "text", "required": true },
     "subtitle": { "type": "text" },
     "lead": { "type": "text" },
-    "challenge": { "type": "json" },
-    "solution": { "type": "json" },
-    "bullets": { "type": "json" },
-    "impact": { "type": "json" },
-    "body3": { "type": "json" },
+    "challenge": {
+      "type": "component",
+      "component": "sections.text-section",
+      "repeatable": false
+    },
+    "solution": {
+      "type": "component",
+      "component": "sections.text-section",
+      "repeatable": false
+    },
+    "body3": {
+      "type": "component",
+      "component": "sections.text-section",
+      "repeatable": false
+    },
+    "bullets": {
+      "type": "component",
+      "component": "sections.bullet-item",
+      "repeatable": true
+    },
+    "impact": {
+      "type": "component",
+      "component": "sections.impact-stat",
+      "repeatable": true
+    },
     "nextTitle": { "type": "string" },
     "nextHref": { "type": "string" },
     "heroImage": {

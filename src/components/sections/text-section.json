@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_sections_text_sections",
+  "info": { "displayName": "Text Section", "icon": "align-left" },
+  "options": {},
+  "attributes": {
+    "heading": { "type": "string", "required": true },
+    "content": { "type": "text" }
+  }
+}

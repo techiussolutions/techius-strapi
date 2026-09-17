@@ -1,0 +1,8 @@
+{
+  "collectionName": "components_sections_bullet_items",
+  "info": { "displayName": "Bullet Item", "icon": "list" },
+  "options": {},
+  "attributes": {
+    "text": { "type": "string", "required": true }
+  }
+}

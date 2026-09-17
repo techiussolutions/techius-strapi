@@ -1,0 +1,10 @@
+{
+  "collectionName": "components_sections_impact_stats",
+  "info": { "displayName": "Impact Stat", "icon": "chart-bar" },
+  "options": {},
+  "attributes": {
+    "value": { "type": "string", "required": true },
+    "label": { "type": "string", "required": true },
+    "description": { "type": "string" }
+  }
+}
