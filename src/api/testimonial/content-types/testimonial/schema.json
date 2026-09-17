@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testimonials",
+  "info": {
+    "singularName": "testimonial",
+    "pluralName": "testimonials",
+    "displayName": "Testimonial",
+    "description": "Client testimonials and reviews"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "quote": { "type": "text", "required": true },
+    "authorName": { "type": "string", "required": true },
+    "authorRole": { "type": "string" },
+    "authorInitials": { "type": "string" },
+    "isFeatured": { "type": "boolean", "default": false },
+    "rating": { "type": "decimal", "default": 5 }
+  }
+}
