@@ -1,6 +1,14 @@
-// Preview is configured server-side in src/index.js via content-manager preview hooks.
-// This file is intentionally minimal.
+import { AiWriterPanel } from './extensions/AiWriterPanel';
+
 export default {
   config: {},
-  bootstrap() {},
+  bootstrap(app) {
+    app.addEditViewSidePanel([
+      {
+        name: 'ai-writer',
+        title: 'AI Writer',
+        Content: AiWriterPanel,
+      },
+    ]);
+  },
 };
