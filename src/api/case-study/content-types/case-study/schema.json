@@ -17,6 +17,8 @@
     "year": { "type": "string" },
     "tag": { "type": "string" },
     "category": { "type": "string" },
+    "industry": { "type": "string" },
+    "expertise": { "type": "string" },
     "services": { "type": "string" },
     "description": { "type": "text", "required": true },
     "subtitle": { "type": "text" },
@@ -53,6 +55,12 @@
       "multiple": false,
       "required": false,
       "allowedTypes": ["images"]
+    },
+    "thumbVideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["videos"]
     }
   }
 }
